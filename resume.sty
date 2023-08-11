@@ -1,65 +1,16 @@
-% resume.sty
-
-% Copyright (c) 2012 Cies Breijs
-%
-% The MIT License
-%
-% Permission is hereby granted, free of charge, to any person obtaining a copy
-% of this software and associated documentation files (the "Software"), to deal
-% in the Software without restriction, including without limitation the rights
-% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-% copies of the Software, and to permit persons to whom the Software is
-% furnished to do so, subject to the following conditions:
-%
-% The above copyright notice and this permission notice shall be included in
-% all copies or substantial portions of the Software.
-%
-% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-% SOFTWARE.
-
-%
-% This style contains some commands for making a LaTeX resume
-%
-% Please refer to the README.md file for more info.
-%
-% This project is currently hosted at: https://github.com/cies/resume
-%
-
-
-
-
-%%% LOAD AND SETUP PACKAGES
-
-
-
-% To finetune lists with a inline heading and indented content.
-% See the Experiences section in the example.
 \usepackage{mdwlist}
-
-% For multiple column text.
 \usepackage{multicol}
-
-% For \textscale, which I prefer over \sc (small caps).
-% See the \acr command definition below.
 \usepackage{relsize}
-
-% Setup the hyperrefs witht he right color.
 \usepackage{hyperref}  
 \usepackage{xcolor}
-\definecolor{dark-blue}{rgb}{0.15,0.15,0.4}
+\usepackage{pifont}
+\definecolor{dark-blue}{rgb}{0.13,0.19,0.42}
 \hypersetup{colorlinks,linkcolor={dark-blue},citecolor={dark-blue},urlcolor={dark-blue}}
 
 % XeTeX specific stuff with fall-back.
 \usepackage{ifxetex}
 \ifxetex
-
   \usepackage{fontspec}
-  
   % the main font, with all features on
   \setmainfont
     [ ExternalLocation ,
@@ -89,13 +40,6 @@
   \usepackage[protrusion]{microtype}
 
 \else
-
-  % this case we likely use the `pdftex` back-end
-  % therefor we lack:
-  %  * lower case numbers,
-  %  * ligatures and
-  %  * some typographic niceties
-  % We do make use of the possibility to use `microtype`
   \usepackage{tgpagella}
   \usepackage[expansion,protrusion]{microtype}
 

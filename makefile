@@ -1,5 +1,5 @@
 all:
-	pdflatex main.tex
+	xelatex main.tex
 	rm *.aux
 	rm *.log
 	rm *.out
