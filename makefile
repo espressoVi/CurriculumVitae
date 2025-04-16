@@ -4,3 +4,4 @@ all:
 	rm *.aux
 	rm *.log
 	rm *.out
+	mv main.pdf cv.pdf
