@@ -1,0 +1,30 @@
+\noindent\begin{minipage}{0.9\textwidth}
+    \maintitle{\huge{\href{https://espressovi.github.io}{Soumadeep Saha}}\normalsize{, PhD}}{\\\textbf{Indian Statistical Institute, Kolkata}}{}
+
+\nobreakvspace{0.3em}
+\noindent
+\href{mailto:soumadeep.saha\_r@isical.ac.in}{
+    \scriptsize{\faEnvelope[regular] soumadeep.saha\_r@isical.ac.in}
+}
+\sbull
+\href{mailto:soumadeep.saha97@gmail.com}{
+    \scriptsize{\faEnvelope[regular] soumadeep.saha97@gmail.com}
+}
+\sbull
+\href{tel:+918697373806}{
+    \scriptsize{\faPhone{} ($+$91) 869 737 3806}
+}
+\sbull
+\href{https://github.com/espressovi}{
+    \scriptsize{\faGithub[regular]}}
+\sbull
+\href{https://www.linkedin.com/in/espressovi42/}{
+    \scriptsize{\faLinkedin[regular]}}
+\sbull
+\href{https://espressovi.github.io}{
+    \scriptsize{\faLink}
+}
+\end{minipage}
+\begin{minipage}{0.09\textwidth}
+    \includegraphics[width=\linewidth]{QR.png}
+\end{minipage}
