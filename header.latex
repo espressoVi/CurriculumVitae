@@ -1,19 +1,19 @@
 \noindent\begin{minipage}{0.9\textwidth}
-    \maintitle{\huge{\href{https://espressovi.github.io}{Soumadeep Saha}}\normalsize{, PhD}}{\\\textbf{Indian Statistical Institute, Kolkata}}{}
+    \maintitle{\huge{\href{https://espressovi.github.io}{Soumadeep Saha}}\normalsize{, PhD}}{\\\textbf{\emph{Postdoc}, ANITI, University of Toulouse}}{}
 
 \nobreakvspace{0.3em}
 \noindent
-\href{mailto:soumadeep.saha\_r@isical.ac.in}{
-    \scriptsize{\faEnvelope[regular] soumadeep.saha\_r@isical.ac.in}
+\href{mailto:soumadeep.saha@univ-toulouse.fr}{
+    \scriptsize{\faEnvelope[regular] soumadeep.saha@univ-toulouse.fr}
 }
 \sbull
 \href{mailto:soumadeep.saha97@gmail.com}{
     \scriptsize{\faEnvelope[regular] soumadeep.saha97@gmail.com}
 }
-\sbull
-\href{tel:+918697373806}{
-    \scriptsize{\faPhone{} ($+$91) 869 737 3806}
-}
+%\sbull
+%\href{tel:+918697373806}{
+%    \scriptsize{\faPhone{} ($+$91) 869 737 3806}
+%}
 \sbull
 \href{https://github.com/espressovi}{
     \scriptsize{\faGithub[regular]}}
