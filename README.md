@@ -1,6 +1,16 @@
-# LaTeX source for my CV.
--------------------------------------------
+# Curriculum Vitae
 
-## Authors
-- [Soumadeep Saha](https://www.github.com/espressovi), Indian Statistical Institute, Kolkata, India
-- Updated on 26th June 2023.
+Hello!
+
+This repository contains material to create my CV. Feel free to reach out at:
+  - [Personal Email](soumadeep.saha97@gmail.com)
+  - [Work Email](soumadeep.saha@univ-toulouse.fr)
+
+Thanks,
+[Soumadeep Saha](https://www.github.com/espressovi)
+
+## Usage
+
+```
+make
+```

@@ -1,6 +1,6 @@
 \documentclass[10pt,a4paper]{article}
 \usepackage[a4paper,top=2cm, left=1.5cm, right=1.5cm, bottom=1.5cm]{geometry}
-\usepackage{resume}
+\usepackage{sections/resume}
 \usepackage[english]{babel}
 \usepackage{lato}
 \usepackage{fontawesome5}
@@ -13,17 +13,15 @@
 
 \begin{document}
 \sloppy
-\input{header.latex}
+\input{sections/header.latex}
 \spacedhrule{0.5em}{-0.7em}
 
-%\spacedhrule{0.6em}{-0.7em}
 %--------------------------------- COVER ---------------------------------------
 \roottitle{Summary}
 \vspace{-0.2em}
     My current research at \emph{ANITI} explores techniques to better understand
-    \emph{reasoning with large language models}. I am also interested
-    in alignment, and my recent work has received support from \emph{OpenAI}.
-    My \href{https://dspace.isical.ac.in/jspui/handle/10263/7608}{PhD research}
+    \emph{reasoning with large language models}. My
+    \href{https://dspace.isical.ac.in/jspui/handle/10263/7608}{PhD research}
     centered on enhancing deep learning systems with the strengths of symbolic
     AI techniques for greater logical coherence and domain constraint adherence.
     While my primary focus is \emph{natural language processing}, I actively
@@ -32,106 +30,9 @@
 \spacedhrule{1em}{-0.7em}
 
 %--------------------------------- EDUCATION -----------------------------------
-\roottitle{Education}
-
-\headedsection{\href{http://www.isical.ac.in}{Indian Statistical Institute, Kolkata}}
-    {\textsc{Kolkata, India}}{
-        \headedsubsection{PhD (Computer Science)}{2020--2025}{
-            \bodytext{
-                \begin{itemize}
-                    \item[\ding{111}] Supervisor: \textbf{\href{https://www.isical.ac.in/~utpal}{Prof. Utpal Garain}}
-                    \item[\ding{111}] Dissertation: \textbf{\href{https://dspace.isical.ac.in/jspui/handle/10263/7608}{``Domain Obedient Deep Learning''}}.
-                \end{itemize}
-            }
-        }
-}
-
-\headedsection{\href{http://www.iiserkol.ac.in}{Indian Institute of Science Education and Research, Kolkata}}
-    {\textsc{Kolkata, India}}{
-        \headedsubsection{Integrated BS \& MS in Physics (Minor in Mathematics)}{2015--2020}{
-            \bodytext{
-                \begin{itemize}
-                    \item[\ding{111}] Awarded the Kishore Vigyan Pratoshan Yojna
-                        (\textbf{KVPY}) fellowship from the Department of
-                        Science and Technology, Govt. of India (GoI).
-                    \item[\ding{111}] Master's dissertation:
-                        \textbf{\href{https://espressovi.github.io/assets/pdf/MastersThesis.pdf}{``Towards Robust Deep Learning Systems''}}.
-                \end{itemize}
-            }
-        }
-}
-\headedsection{\href{https://bhavansgkvidyamandir.edu.in/}{Bhavan's G.K. Vidyamandir}}
-    {\textsc{Kolkata, India}}{
-        \headedsubsection{10+2 \textnormal{~(Pre-University Secondary Education)}}{2002--2015}{
-            \bodytext{
-                \begin{itemize}
-                    \item[\ding{111}] Recipient of the prestigious National Talent Search Examination (\textbf{NTSE}) Scholarship from NCERT, GoI.
-                    \item[\ding{111}] CBSE (10th standard): $91.2\%$; AISSCE (12th standard): $92\%$.
-                \end{itemize}
-        }
-    }
-}
-\spacedhrule{1em}{-0.7em}
-
+\input{sections/education.latex}
 %--------------------------------- PUBLICATIONS --------------------------------
-\roottitle{Publications \href{https://scholar.google.com/citations?user=RMegz-MAAAAJ&hl=en}{\aiGoogleScholar}}
-
-\headedsection{\ding{111} \href{https://doi.org/10.1162/TACL.a.729}{KisMATH: Do LLMs Have Knowledge of Implicit Structures in\\ Mathematical Reasoning?}}
-    {\textbf{TACL} (2026), 14: 1308-1328} 
-    {\headedsubsection{\normalfont{\textbf{S. Saha}, A. Chaturvedi, S. Saha, U. Garain, N. Asher}}{}{}}
-\vspace{0.3em}
-
-\headedsection{\ding{111} \href{https://aclanthology.org/2025.findings-emnlp.21/}{sudoLLM: On Multi-role Alignment of Language Models}}
-    {\textbf{EMNLP 2025} (findings)} 
-    {\headedsubsection{\normalfont{\textbf{S. Saha}, A. Chaturvedi, J. Mahapatra, U. Garain}}{}{}}
-\vspace{0.3em}
-
-\headedsection{\ding{111} \href{https://aclanthology.org/2025.naacl-long.104/}{Language Models are Crossword Solvers}}
-    {\textbf{NAACL 2025} (main)}
-    {\headedsubsection{\textbf{S. Saha}, \normalfont{S. Chakraborty, S. Saha, U. Garain}}{}{} }
-\vspace{0.3em}
-
-\headedsection{\ding{111} \href{https://aclanthology.org/2024.cl-1.5/}{Analyzing Semantic Faithfulness of Language Models via Input Intervention on\\ Conversational Question Answering}}
-    {\textbf{Computational Linguistics} (2024), 50(1): 119-155}
-    {\headedsubsection{\normalfont{A. Chaturvedi, S. Bhar, \textbf{S. Saha}, U. Garain, N. Asher}}{}{} }
-\vspace{0.3em}
-
-\headedsection{\ding{111} \href{https://proceedings.mlr.press/v275/saha25a.html}{On Measuring Intrinsic Causal Attributions in Deep Neural Networks}}
-    {\textbf{CLeaR 2025}}
-    {\headedsubsection{\normalfont{S. Saha, D. V. Rathore, \textbf{S. Saha}, D. Doermann, U. Garain.}}{}{} }
-\vspace{0.3em}
-
-\headedsection{\ding{111} \href{https://data.mlr.press/assets/pdf/v01-13.pdf}{VALUED - Vision and Logical Understanding Evaluation Dataset}}
-    {\textbf{DMLR} (2024), (13):1-18.}
-    {\headedsubsection{\normalfont{\textbf{S. Saha}, S. Saha, U. Garain}} {}{} }
-\vspace{0.3em}
-
-\headedsection{\ding{111} \href{https://doi.org/10.1371/journal.pone.0283895}{MedTric : A clinically applicable metric for evaluation of multi-label computational\\ diagnostic systems}}
-    {\textbf{PLOS One} (2023), 18(8): e0283895}
-    {\headedsubsection{\normalfont{\textbf{S. Saha}, U. Garain, A. Ukil, A. Pal, S. Khandelwal.}}{}{} }
-\vspace{0.3em}
-
-\headedsection{\ding{111} \href{https://link.springer.com/chapter/10.1007/978-3-031-63592-2_10}{DOST -- Domain Obedient Self-supervised Training for Multi Label Classification\\ with Noisy Labels}}
-    {\textbf{AAAI 2024 Workshop (W3PHIAI)} (2024), 1164: 117-127}
-    {\headedsubsection{\normalfont{\textbf{S. Saha}, U. Garain, A. Ukil, A. Pal, S. Khandelwal.}}{}{} }
-\vspace{0.3em}
-
-\headedsection{\ding{111} \href{https://iopscience.iop.org/article/10.3847/1538-4365/ad5558}{LADDER: Revisiting the Cosmic Distance Ladder with Deep Learning Approaches\\ and Exploring its Applications}}
-    {\textbf{ApJS} (2024), 273(2): 27}
-    {\headedsubsection{\normalfont{R. Shah, \textbf{S. Saha}, P. Mukherjee, U. Garain, S. Pal}}{}{} }
-\vspace{0.3em}
-
-\headedsection{\ding{111} \href{https://www.techrxiv.org/doi/abs/10.36227/techrxiv.177075184.43798334/v1}{The Synergistic Integration of Access Control Management and Large Language\\ Model Agents: A Survey}}
-    {Preprint. 10.36227/techrxiv.177075184.43798334/v1}
-    {\headedsubsection{\normalfont{F. Periti, \textbf{S. Saha}}}{}{} }
-\vspace{0.3em}
-
-%\headedsection{\ding{111} \href{https://arxiv.org/abs/2412.14750}{Deep Learning Based Recalibration of SDSS and DESI BAO Alleviates Hubble\\ and Clustering Tensions}}
-%    {Preprint. 10.48550/arXiv.2412.14750} 
-%    {\headedsubsection{\normalfont{R. Shah, P. Mukherjee, \textbf{S. Saha}, U. Garain, S. Pal}}{}{Under review at ApJ.}}
-%\vspace{0.3em}
-\spacedhrule{1em}{-0.7em}
-
+\input{sections/publications.latex}
 %--------------------------------- PATENTS -------------------------------------
 \roottitle{Patents}
 
@@ -145,19 +46,37 @@
     {\headedsubsection{\normalfont{U. Garain, \textbf{S. Saha}, A. Ukil, T. Deb, S. Richa A. Pal, S. Khandelwal}}{}{Filed Sep. 2022.}}
 \spacedhrule{1em}{-0.4em}
 
-%--------------------------------- EXPERIENCE ----------------------------------
-\roottitle{Experience}
+%--------------------------- GRANTS, AWARDS, ETC.-------------------------------
+\roottitle{Grants, Fellowships \& Awards}
 
-\headedsection{\textbf{Helmholtz Visiting Researcher}}{Jul \apo24--Sep \apo24}{
+\headedsection{\textbf{OpenAI Grant}}{Jan \apo25}{
+    \bodytext{
+        Awarded \$5000 in computational credits from \textbf{OpenAI} under their
+        \emph{Researcher Access Program} to support my work on
+        \href{https://aclanthology.org/2025.findings-emnlp.21/}{LLM alignment}.
+    }
+}
+\headedsection{\textbf{Helmholtz Visiting Researcher Grant}}{Jul \apo24 -- Sep \apo24}{
     \bodytext{
         Awarded the Helmholtz Information and Data Science Academy (HIDA)
-        visiting researcher grant to work at the Institute of Aerospace
+        \emph{visiting researcher grant} to work at the Institute of Aerospace
         Medicine, DLR (German Aerospace Center). Conducted research on improving
         AI-based retinal diagnostics for spaceflight applications.
     }
 }
+\headedsection{\textbf{KVPY \& NTSE}}{2015, 2013}{
+    \bodytext{
+        Awarded the prestigious Kishore Vigyan Pratoshan Yojna (\textbf{KVPY})
+        fellowship from the Department of Science and Technology, Govt. of
+        India, and recipient of the National Talent Search Examination
+        (\textbf{NTSE}) Scholarship from NCERT, Govt. of India.
+    }
+}
+\spacedhrule{1em}{-0.4em}
+%--------------------------------- EXPERIENCE ----------------------------------
+\roottitle{Experience}
 
-\headedsection{\textbf{Alleima}}{Mar \apo24--May \apo24}{
+\headedsection{\textbf{Alleima}}{Mar \apo24 -- May \apo24}{
     \bodytext{
         Developed a custom end-to-end computer vision-based solution for
         assembly-line object detection/tracking, enabling autonomous logging of
@@ -174,20 +93,11 @@
     }
 }
 
-%\headedsection{\textbf{Deep Analysis of Pain Management}}{Jun \apo20 -- Nov \apo20}{
-%    \bodytext{
-%        Collaborated with medical professionals in the field of radiodiagnosis
-%        to formulate a problem statement and set up data-gathering protocols to
-%        create a high-quality data set for the analysis of back pain from MRI
-%        images.
-%    }
-%}
-
 \headedsection{\textbf{Talks and Presentations}}{}{
     \bodytext{
         \begin{itemize}
             \item[\ding{111}] Organized a 4-day workshop for DataLab, \textbf{Capital One}, Bangalore (2023).
-            \item[\ding{111}] Subject matter expert for Be10x---designed MOOCs, and delivered live seminars to 500+ participants (2024).
+            \item[\ding{111}] Subject matter expert for Be10x; designed MOOCs, and delivered live seminars to 500+ participants (2024).
             \item[\ding{111}] TA for Natural Language Processing course at ISI Kolkata (2022--2025).
             \item[\ding{111}] Instructor at the Winter School of Deep Learning (WSDL), ISI Kolkata (2021--2024).
             \item[\ding{111}] Instructor for the Comprehensive Course on Business Analytics, ISI Kolkata (2022).
@@ -201,19 +111,12 @@
 \spacedhrule{1em}{-0.4em}
 
 %--------------------------------- SKILLS --------------------------------------
-\roottitle{Skills}
+\roottitle{Technical Skills}
 
- \ding{111} \textbf{Deep Learning}: Expert in deep learning theory and practice,
-     from low-level optimization to advanced architectures and training paradigms.\\
- \ding{111} \textbf{Python}: ~10 years of experience. Proficient in
-     \textbf{\texttt{pytorch}}, \texttt{Hugging Face}, \texttt{nympy}, etc.,
-     with extensive experience developing custom modules, training loops, etc.,
-     and scaling for high-performance GPU clusters.\\
- \ding{111} \textbf{NLP}: Significant LLM expertise (in-context learning, RAG,
-     PEFT, Q-LoRA, instruction tuning, RLHF, DPO, etc.)\\
- \ding{111} \textbf{Deep RL}: DQN, PPO, MCTS, GRPO, etc.\\
- \ding{111} \textbf{Programming}: In addition to python, experienced in C++, FORTRAN, bash, etc.\\
- \ding{111} \textbf{Vision}: Vision transformers, CNNs, VLMs, object detection, segmentation, etc.\\
+    \ding{111} \textbf{Languages \& Frameworks}: Python (\texttt{PyTorch}, \texttt{HuggingFace}), C++, bash.\\
+    \ding{111} \textbf{Infrastructure \& Compute}: Multi-node and multi-GPU distributed (\texttt{FSDP}, \texttt{DeepSpeed}) training (RLVR, SFT) on GPU clusters.\\
+    \ding{111} \textbf{LLMs \& Alignment}: RLVR, RLHF, DPO, PEFT/Q-LoRA, RAG, In-context Learning.\\
+    \ding{111} \textbf{Computer Vision}: VLMs, Vision Transformers (ViTs), CNNs, Object Detection \& Segmentation.\\
 
 \spacedhrule{1em}{-0.4em}
 
@@ -221,9 +124,9 @@
 \roottitle{Interests}
 
 	 \ding{111} \textbf{Robotics/DIY}--Active interest in 3D printing,
-     robotics, electronics, etc. I have conducted introductory workshops on
-     robotics and was the Secretary of the Robotics and Astronomy Club at IISER
-     Kolkata.\\
+     homelabbing, robotics, electronics, etc. I have conducted introductory
+     workshops on robotics and was the Secretary of the Robotics and Astronomy
+     Club at IISER Kolkata.\\
 	 \ding{111} \textbf{Sports}--Represented my college in national-level sports
      meets in basketball and volleyball. Played in my state's Senior Division
      Men's Basketball League.\\

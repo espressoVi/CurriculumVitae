@@ -1,0 +1,36 @@
+\roottitle{Education}
+
+\headedsection{\href{http://www.isical.ac.in}{Indian Statistical Institute, Kolkata}}
+    {\textsc{Kolkata, India}}{
+        \headedsubsection{PhD (Computer Science)}{2020--2025}{
+            \bodytext{
+                \begin{itemize}
+                    \item[\ding{111}] Supervisor: \textbf{\href{https://www.isical.ac.in/~utpal}{Prof. Utpal Garain}}
+                    \item[\ding{111}] Dissertation: \textbf{\href{https://dspace.isical.ac.in/jspui/handle/10263/7608}{``Domain Obedient Deep Learning''}}.
+                \end{itemize}
+            }
+        }
+}
+
+\headedsection{\href{http://www.iiserkol.ac.in}{Indian Institute of Science Education and Research, Kolkata}}
+    {\textsc{Kolkata, India}}{
+        \headedsubsection{Integrated BS \& MS in Physics (Minor in Mathematics)}{2015--2020}{
+            \bodytext{
+                \begin{itemize}
+                    \item[\ding{111}] Master's dissertation:
+                        \textbf{\href{https://espressovi.github.io/assets/pdf/MastersThesis.pdf}{``Towards Robust Deep Learning Systems''}}.
+                \end{itemize}
+            }
+        }
+}
+%\headedsection{\href{https://bhavansgkvidyamandir.edu.in/}{Bhavan's G.K. Vidyamandir}}
+%    {\textsc{Kolkata, India}}{
+%        \headedsubsection{10+2 \textnormal{~(Pre-University Secondary Education)}}{2002--2015}{
+%            \bodytext{
+%                \begin{itemize}
+%                    \item[\ding{111}] CBSE (10th standard): $91.2\%$; AISSCE (12th standard): $92\%$.
+%                \end{itemize}
+%        }
+%    }
+%}
+\spacedhrule{1em}{-0.7em}

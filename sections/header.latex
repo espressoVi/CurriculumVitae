@@ -26,5 +26,5 @@
 }
 \end{minipage}
 \begin{minipage}{0.09\textwidth}
-    \includegraphics[width=\linewidth]{QR.png}
+    \includegraphics[width=\linewidth]{images/QR.png}
 \end{minipage}
